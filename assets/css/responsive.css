@@ -1,0 +1,160 @@
+/* ======================= Mobbile Device ======================= */
+
+@media screen and (max-width: 767px) {
+    /* Basic Style */
+    h1 {
+        font-size: 30px;
+    }
+    /* Page Header */
+    header.page-header .topbar {
+        height: 65px;
+    }
+    /*    header.page-header .logo {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        transform: translateX(0);
+    }*/
+    header.page-header .topbar .phone {
+        display: none !important;
+    }
+    /* Hero */
+    .hero .banner-img {
+        height: 100vh;
+    }
+    /* Side Image */
+    .side-img {
+        display: none;
+    }
+    .hero .hero-text {
+        margin-left: 0;
+        padding: 50px 0 101px;
+    }
+    .hero .hero-modal {
+        position: unset;
+        width: 90%;
+        padding: 25px 15px;
+        position: relative;
+        left: 5%;
+        top: -55px;
+        right: 0;
+        border-radius: 8px;
+    }
+    .hero-modal .radio-btn p {
+        margin: 0 10px 0 0;
+    }
+    .hero-modal .radio-btn .button {
+        margin: 0;
+    }
+    .hero-modal .radio-btn .button:not(:last-child) {
+        margin-right: 5px;
+    }
+    .modal-form .d-flex input:first-child {
+        margin: 0;
+    }
+    /* Under Icons */
+    .hero .under-icons {
+        margin-top: -50px;
+    }
+    .hero .under-icons .row {
+        margin-left: 0;
+    }
+    /* Testimonials */
+    .testimonials .card {
+        padding: 20px 15px;
+        border: 0;
+    }
+    /* Services */
+    .services-area .serviees {
+        margin-bottom: 35px;
+    }
+    .services-area .serviees .header {
+        padding: 0;
+    }
+    .services-area .serviees .header h3 {
+        margin: 25px 0 19px;
+    }
+    /* Footer */
+    .page-footer {}
+    .page-footer .footer-widgets .widget {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+}
+
+/* ======================= Small Device ======================= */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* Basic Style */
+    h1 {
+        font-size: 40px;
+    }
+    /* Hero */
+    .hero .hero-text {
+        margin-left: 0;
+        padding: 70px 0 120px;
+    }
+    /* Services */
+    .services-area .serviees .header {
+        padding: 0;
+    }
+}
+
+/* ======================= Medium Device ======================= */
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    /* Hero */
+    .hero .hero-text {
+        margin-left: 0;
+        padding: 70px 0 120px;
+    }
+    .hero .hero-modal {
+        position: unset;
+        width: 90%;
+        padding: 25px 15px;
+        position: relative;
+        left: 5%;
+        top: -100px;
+        right: 0;
+    }
+    /* Side Image */
+    .side-img {
+        display: none;
+    }
+    /* Under Icons */
+    .hero .under-icons {
+        margin-top: -50px;
+    }
+    .hero .under-icons .row {
+        margin-left: 0;
+        justify-content: center;
+    }
+    /* Testimonials */
+    .testimonials .card {
+        padding: 20px 15px;
+    }
+    /* Services */
+    .services-area .serviees .header {
+        padding: 0;
+    }
+    /* Footer */
+    .page-footer {}
+    .page-footer .footer-widgets {
+        justify-content: center;
+    }
+    .page-footer .footer-widgets .widget {
+        width: 50%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+}
+
+/* ======================= Large Device ======================= */
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    .hero .hero-modal {
+        top: 30px;
+        right: 15px;
+    }
+}
